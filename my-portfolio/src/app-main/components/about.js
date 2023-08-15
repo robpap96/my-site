@@ -8,6 +8,7 @@ import Image from 'react-bootstrap/Image';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
+//my components
 
 const About = () => {
   return (
@@ -29,8 +30,8 @@ const About = () => {
                           
                         </Card>
                     </Col>
-                    <Col xs={4}>
-                        <Image src="./my-portfolio/public/assets/logo-placeholder.jpeg"></Image>
+                    <Col className="p-4" xs={4}>
+                        <img src="https://i1.wp.com/potafiori.com/wp-content/uploads/2020/04/placeholder.png?ssl=1" alt="boh" />
                     </Col>
                 </Row>
             </Container>

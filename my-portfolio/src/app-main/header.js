@@ -18,8 +18,8 @@ const Header = () => {
         <header>
             <Container bg="primary" fluid>
                 <Row>
-                    <Col>
-                        <Image src="my-site/my-portfolio/public/assets/logo-placeholder.jpeg"  href="#home"></Image>
+                    <Col className="d-flex align-items-center">
+                        <Image className="w-25" src="https://i1.wp.com/potafiori.com/wp-content/uploads/2020/04/placeholder.png?ssl=1"  href="#home" ></Image>
                     </Col>
                     <Col xs={6}></Col>
                     <Col>
