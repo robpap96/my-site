@@ -6,7 +6,6 @@ import Technologies from './components/Technologies';
 import Projects from './components/Projects';
 import Contact from './components/Contacts';
 
-
 const Main = () => {
     return (
         <main>
